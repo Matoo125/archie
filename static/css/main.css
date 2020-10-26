@@ -37,7 +37,7 @@ hr {
 }
 
 blockquote {
-  border-left: 3px solid var(--bordercl);
+  border-left: 2px solid var(--maincolor);
   color: #737373;
   margin: 0;
   padding-left: 1em;
@@ -51,6 +51,11 @@ a {
 a:hover {
     background-color: var(--hovercolor);
     color: #fff;
+}
+
+article a, div.description a {
+  border-bottom: 1px solid var(--maincolor);
+
 }
 
 ul {
